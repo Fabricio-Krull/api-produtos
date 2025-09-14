@@ -1,3 +1,6 @@
+// Não sei se eu posso remover as rotas de produto do projeto, então eu deixei em um banco à parte, assim como a tabela de usuários
+// está igual a do banco do projeto, mas não está sendo inserida nele.
+
 package com.exemplo.api.produtos.model;
 
 import jakarta.persistence.Entity;

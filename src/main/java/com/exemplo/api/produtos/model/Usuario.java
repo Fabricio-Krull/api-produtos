@@ -12,7 +12,16 @@ public class Usuario {
     private Long id;
     private String nome;
     private String email;
+    private String dataNascimento;
     private int pontuacao;
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
 
     public Usuario() {}
 
